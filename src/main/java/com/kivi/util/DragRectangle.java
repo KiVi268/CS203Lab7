@@ -19,12 +19,11 @@ public class DragRectangle extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                g.setColor(Color.BLUE);
+                g.setColor(Color.BLACK);
                 g.fillRect(rectX, rectY, rectWidth, rectHeight);
             }
         };
-
-        canvas.setBackground(Color.WHITE);
+        canvas.setBackground(Color.PINK);
 
         canvas.addMouseListener(new MouseAdapter() {
             @Override

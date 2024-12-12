@@ -9,6 +9,6 @@ public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new DrawingShapes().setVisible(true));
 
-        SwingUtilities.invokeLater(() -> new DragRectangle().setVisible(true));
+        //SwingUtilities.invokeLater(() -> new DragRectangle().setVisible(true));
     }
 }

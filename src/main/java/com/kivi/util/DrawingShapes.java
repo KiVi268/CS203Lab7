@@ -20,7 +20,7 @@ public class DrawingShapes extends JFrame {
                 for (com.kivi.model.Shape shape : shapes) {
                     g.setColor(shape.getColor());
                     if (shape.isCircle()) {
-                        g.fillOval(shape.getX() - 25, shape.getY() - 25, 70, 70);
+                        g.fillArc(shape.getX() - 25, shape.getY() - 25, 70, 70, 0,360);
                     } else {
                         g.fillRect(shape.getX() - 25, shape.getY() - 25, 70, 70);
                     }
